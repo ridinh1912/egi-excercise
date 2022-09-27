@@ -1,6 +1,6 @@
 import axios from "axios";
-import React, {useState, useEffect} from "react"
-import { useParams, useNavigate } from "react-router-dom"
+import React, {useState, useEffect} from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import { API_URL, ERROR_MESSAGE } from "../constants";
 import isEmpty from "lodash/isEmpty";
 
